@@ -1,5 +1,12 @@
 let MAX_CHOICES = 4;
+let MAX_QUIZES = 6;
 let quizes = [];
+quizes.push(content_quiz1());
+quizes.push(content_quiz2());
+quizes.push(content_quiz3());
+quizes.push(content_quiz1());
+quizes.push(content_quiz2());
+quizes.push(content_quiz3());
 quizes.push(content_quiz1());
 quizes.push(content_quiz2());
 quizes.push(content_quiz3());
@@ -72,7 +79,7 @@ function content_quiz3() {
     ['quingombó', 'Okra'],
     ['maíz',    'Corn'],
     ['lenteja', 'Lentil'],
-    ['patata', 'Spinach'],
+    ['espinacas', 'Spinach'],
     ['tomate', 'Tomato'],
     ['jengibre', 'Ginger'],
     ['ajo', 'Garlic'],
